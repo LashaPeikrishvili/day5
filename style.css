@@ -1,0 +1,177 @@
+.main {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.blogUl {
+    display: flex;
+
+}
+
+.blogLi {
+    padding: 20px;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 127px;
+}
+
+.icons img {
+    width: 16px;
+    height: 16px;
+    margin-right: 20px;
+}
+
+.mainBlog {
+    align-items: center;
+    top: 60px;
+}
+
+.banner {
+    background-image: url('./photos/Banner\ Image.png');
+    width: 100%;
+    height: 855px;
+    /* overflow: auto; */
+    display: flex;
+}
+
+.bannerAbout {
+    height: 187px;
+    width: 706px;
+    background-color: white;
+    margin: 550px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerAbout p {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.green {
+    background-color: #306B34;
+    width: 100%;
+    height: 779px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book {
+    width: 579px;
+    height: 353px;
+}
+
+.our {
+    width: 306px;
+    height: 291px;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 60px;
+    padding-left: 30px;
+    color: white;
+}
+
+.mission h3 {
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+.cover {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover h3 {
+    font-size: 40px;
+    font-style: italic;
+    top: 30px;
+    text-align: center;
+    flex-direction: column;
+    color: #36413E;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.bigText {
+    font-size: 20px;
+    font-style: 20px;
+    width: 696px;
+    height: 247px;
+    bottom: 110px;
+    top: 100px;
+    flex-direction: column;
+    color: #7F7F7F;
+}
+
+button {
+    width: 148px;
+    background-color: #36413E;
+    margin-top: 20px;
+}
+
+button p {
+    color: white;
+}
+
+.goBlog {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.have {
+    padding-left: 60px;
+}
+
+footer {
+    background-color: #306B34;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.footUl {
+    color: white;
+    margin-right: 25%;
+}
+
+.privacy {
+    color: white;
+    margin-left: 10px;
+}
+
+
+
+.have {
+    margin-left: 50px;
+}
+
+.footUl1 {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    margin-left: 330px;
+}
+
+.footLi {
+    padding: 20px;
+    align-items: center;
+}
